@@ -16,6 +16,10 @@
   ],
   "author": "Christos Panagiotakopoulos <chrispanag@gmail.com>",
   "license": "MIT",
+  "repository": "chrispanag/ebony-hodorbot",
+  "engines": {
+    "node": "^8.9.0"
+  },
   "dependencies": {
     "dotenv": "^6.0.0",
     "messenger-platform-node": "git+https://github.com/chrispanag/messenger-platform-node.git",
