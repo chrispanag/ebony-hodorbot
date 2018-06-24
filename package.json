@@ -1,0 +1,24 @@
+{
+  "name": "ebony-hodorbot",
+  "version": "1.0.0",
+  "description": "A 'Hello World' bot for EBONy Framework",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "keywords": [
+    "bot",
+    "ebony-framework",
+    "ebony",
+    "chatbot",
+    "messenger"
+  ],
+  "author": "Christos Panagiotakopoulos <chrispanag@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^6.0.0",
+    "messenger-platform-node": "git+https://github.com/chrispanag/messenger-platform-node.git",
+    "ebony-framework": "^1.0.2"
+  }
+}
